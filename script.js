@@ -26,5 +26,7 @@ calculateBtn.addEventListener('click', (event) => {
     return;
   };
 
-  return bmiCategories;
+  const category = bmiCategories.find(item => bmi >= item.min && bmi <= item.max).category
+
+  resultDiv.innerHTML += `<p>${nameInput} seu IMC é ${bmi} e você está ${category}</p>`
 });
