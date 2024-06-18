@@ -21,5 +21,10 @@ calculateBtn.addEventListener('click', (event) => {
     { min: 40, max: Infinity, category: 'Com obesidade grau III' }
   ];
 
-  return;
+  if (!nameInput || !heightInput || !weightInput) {
+    alert('Preencha todos os campos!');
+    return;
+  };
+
+  return bmiCategories;
 });
