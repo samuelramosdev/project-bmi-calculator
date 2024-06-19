@@ -10,7 +10,7 @@ calculateBtn.addEventListener('click', (event) => {
   const heightInput = parseFloat(document.getElementById('height').value);
   const weightInput = parseFloat(document.getElementById('weight').value);
 
-  const bmi = weightInput / (heightInput * heightInput).toFixed(1);
+  const bmi = (weightInput / (heightInput * heightInput)).toFixed(1);
 
   const bmiCategories = [
     { min: 0, max: 18.4, category: 'Abaixo do peso' },
