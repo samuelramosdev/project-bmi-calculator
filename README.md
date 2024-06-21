@@ -26,12 +26,12 @@ IMC = peso (kg) / (altura (m) * altura (m))
 
 1. Clone este repositório:
     ```sh
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/samuelramosdev/project-bmi-calculator.git
     ```
 
 2. Navegue até o diretório do projeto:
     ```sh
-    cd nome-do-repositorio
+    cd project-bmi-calculator
     ```
 
 3. Abra o arquivo `index.html` no seu navegador preferido.
